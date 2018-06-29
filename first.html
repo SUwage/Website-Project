@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-first.css">
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
@@ -64,7 +63,7 @@
 
 <!-- Second section Title -->
     <section id="description-title">
-      <div class="container">
+      <div class="container first-page-description">
         <h2>Supreme x Nike Air More Uptempo</h2>
         <h3>Metallic Gold/White</h3>
       </div>
@@ -93,7 +92,7 @@
 <!-- Third section Title -->
 
     <section id="description-title-smaller">
-      <div class="container">
+      <div class="container first-page-description">
         <h3>Black/Black-White</h3>
       </div>
     </section>
@@ -122,7 +121,7 @@
 <!-- Fourth section Title -->
 
     <section id="description-title-smaller">
-      <div class="container">
+      <div class="container first-page-description">
         <h3>Varsity Red/White</h3>
       </div>
     </section>
@@ -150,7 +149,7 @@
 <!-- Fifth section Title -->
 
     <section id="description-title-smaller">
-      <div class="container">
+      <div class="container first-page-description">
         <p>The Supreme x Nike Air More Uptempo Suptempo is scheduled to release online at SupremeNewYork.com on April 27th, 2017 in the U.S. and Europe. Following they will debut in Japan in-store and online on April 29th. Retail price is set at $190 each.</p>
       </div>
     </section>
@@ -214,6 +213,12 @@
           duration: 2000,
           delay: 2000,
           origin:'right'
+        });
+        sr.reveal('.first-page-description', {
+          duration: 2000,
+          delay: 2000,
+          origin:'bottom',
+          viewFactor: 0.2
         });
     </script>
 

@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-second.css">
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
@@ -64,7 +63,7 @@
 
 <!-- Second section Title -->
     <section id="description-title">
-      <div class="container">
+      <div class="container second-page-description">
         <h2>Adidas EQT Cushion ADV</h2>
         <h3>Core Black/Tri-Color</h3>
       </div>
@@ -93,7 +92,7 @@
 <!-- Third section Title -->
 
     <section id="description-title-smaller">
-      <div class="container">
+      <div class="container second-page-description">
         <h3>White/EQT Yellow-Silver Metallic</h3>
       </div>
     </section>
@@ -122,7 +121,7 @@
 <!-- Fourth section Title -->
 
     <section id="description-title-smaller">
-      <div class="container">
+      <div class="container second-page-description">
         <h3>Dark Grey</h3>
       </div>
     </section>
@@ -150,7 +149,7 @@
 <!-- Fifth section Title -->
 
     <section id="description-title-smaller">
-      <div class="container">
+      <div class="container second-page-description">
         <p>For those that are interested in purchasing one of both of these adidas EQT Cushion ADV colorways, they will release on December 6th at select adidas Originals retailers. Retail price is set at $130.</p>
       </div>
     </section>
@@ -214,6 +213,12 @@
           duration: 2000,
           delay: 2000,
           origin:'right'
+        });
+        sr.reveal('.second-page-description', {
+          duration: 2000,
+          delay: 2000,
+          origin:'bottom',
+          viewFactor: 0.2
         });
     </script>
 
