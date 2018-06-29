@@ -1,9 +1,15 @@
+body{
+  margin-top:70px;
+  font-size:16px;
+  font-family: 'Poppins', sans-serif;
+}
+
 #showcase h1{
   text-align: center;
   font-size:50px;
+  font-family: 'Poppins', sans-serif;
   margin-bottom:20px;
 }
-
 #showcase img{
   width:90%;
   margin-left:60px;
@@ -11,7 +17,6 @@
 #Eqt-banner1{
   height: 500px;
 }
-
 #showcase .showcase-right{
   margin-top:90px;
   color:#000;
@@ -51,9 +56,6 @@
   height:200px;
   padding-left: 75px;
 }
- /* #gold1 {
-  height: 200px;
-} */
 
 #description-title-smaller{
   background: orange;

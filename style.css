@@ -1,13 +1,14 @@
 body{
   margin-top:70px;
   font-size:16px;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Navbar section */
 .navbar-default {
   background: #fff;
   border: 0;
-  /* font-family: KingsCaslonDisplayTypo; */
+  font-family: 'Poppins', sans-serif;
 }
 .navbar-brand{
   font-size:20px;
@@ -33,7 +34,6 @@ body{
   height:391px;
   padding-right: 0px;
 }
-
 .shoe-pic-container {
   margin-top: 20px;
   padding: 0;
@@ -79,7 +79,7 @@ body{
 }
 .text {
   color: white;
-  /* font-size: 30px; */
+  font-family: 'Poppins', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -118,7 +118,7 @@ body{
   border: 0;
 }
 .btn-danger {
-  /* font-family: KingsCaslonDisplayTypo; */
+  font-family: 'Poppins', sans-serif;
   color: grey;
 }
 .navbar-btn {
