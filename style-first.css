@@ -35,7 +35,7 @@ body{
 }
 
 #description-title{
-  background: orange;
+  background: #ff9100;
   padding: 0px 0 30px 0;
   text-align:center;
   margin-top:40px;
@@ -55,7 +55,7 @@ body{
 }
 
 #description-title-smaller{
-  background: orange;
+  background: #ff9100;
   padding: 30px 0 30px 0;
   text-align:center;
   margin-top:40px;

@@ -72,7 +72,7 @@ body{
   width: 567px;
   opacity: 0;
   transition: .5s ease;
-  background-color: orange;
+  background-color: #ff9100;
 }
 .shoe-pic-container:hover .overlay {
   opacity: 0.8;
@@ -127,5 +127,5 @@ body{
   border-style: none;
 }
 .navbar-btn:hover {
-  background-color: orange;
+  background-color: #ff9100;
 }
