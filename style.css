@@ -3,7 +3,6 @@ body{
   font-size:16px;
   font-family: 'Poppins', sans-serif;
 }
-
 /* Navbar section */
 .navbar-default {
   background: #fff;
@@ -19,7 +18,6 @@ body{
   width:100%;
   height:685px;
 }
-
 /* Carousel section */
 .carousel-indicators li {
   background-color: white !important;
@@ -28,7 +26,6 @@ body{
 .carousel-caption {
   padding-bottom: 540px;
 }
-
 #suptempo {
   width:567px;
   height:391px;
@@ -38,7 +35,6 @@ body{
   margin-top: 20px;
   padding: 0;
 }
-
 /* Pictures of the first section */
 .four-pic-1 {
   width:280px;
@@ -60,7 +56,6 @@ body{
   margin-left: 140px;
   margin-top: 5px;
 }
-
 /* Hover section */
 .overlay {
   position: absolute;
@@ -87,7 +82,6 @@ body{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
 /* Pictures of the second section */
 .two-pic-1 {
   width:280px;
@@ -111,7 +105,6 @@ body{
   margin-left: 125px;
   margin-top: 5px;
 }
-
 .navbar-bottom {
   margin-top: 20px;
   background: #fff;
@@ -128,4 +121,7 @@ body{
 }
 .navbar-btn:hover {
   background-color: #ff9100;
+}
+.text a {
+  color: White;
 }
